@@ -14,6 +14,11 @@
             Route="MainPage" />
 
         <ShellContent 
+            Title="Notes"
+            ContentTemplate="{DataTemplate local:NotePage}"
+            Route="NotePage"/>
+
+        <ShellContent 
             Title="Sobre o aplicativo"
             ContentTemplate="{DataTemplate local:AboutPage}"
             Route="AboutPage"/>
